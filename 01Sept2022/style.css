@@ -1,0 +1,57 @@
+html{
+    /* 62.5% of 16px = 10px */
+    font-size: 62.5%;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    width: 400px;
+    /* font-size: 30px; */
+}
+.box{
+    width: 50vw;
+    height: 100vh;
+    background-color: aqua;
+    /* overflow: scroll; */
+    /* overflow-x: scroll; */
+    /* overflow-y: scroll; */
+    overflow: auto;
+}
+
+.p1{
+    margin: 0;
+    background-color: tomato;
+    padding: 10px;
+}
+.p2{
+    margin: 0;
+    background-color: teal;
+    padding: 10px;
+}
+@media screen  and (min-width:600px){
+    .container{
+        flex-direction: row;
+    }
+}
+
+@media print {
+    .p1{
+        margin: 0;
+        background-color: tomato;
+        font-size: 1cm;
+    }
+    .p2{
+        margin: 0;
+        background-color: teal;
+        font-size: 1cm;
+    }
+}
