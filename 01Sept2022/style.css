@@ -31,11 +31,13 @@ body{
     margin: 0;
     background-color: tomato;
     padding: 10px;
+    font-family: 'Oswald', sans-serif;
 }
 .p2{
     margin: 0;
     background-color: teal;
     padding: 10px;
+    font-family: 'Kanit', sans-serif;
 }
 @media screen  and (min-width:600px){
     .container{
@@ -48,6 +50,7 @@ body{
         margin: 0;
         background-color: tomato;
         font-size: 1cm;
+        
     }
     .p2{
         margin: 0;
