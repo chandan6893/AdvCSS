@@ -26,17 +26,22 @@ body{
     /* overflow-y: scroll; */
     overflow: auto;
 }
+:root{
+    --primary-color:green;
+    --secondry-color:yellow;
+    --line-height   :1.5;
+}
 
 .p1{
     margin: 0;
-    background-color: tomato;
+    background-color:var(--primary-color);
     padding: 10px;
     font-family: 'Oswald', sans-serif;
     color: aliceblue;
 }
 .p2{
     margin: 0;
-    background-color: teal;
+    background-color:var(--secondry-color);
     padding: 10px;
     font-family: 'Kanit', sans-serif;
 }
